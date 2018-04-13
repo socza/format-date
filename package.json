@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npm run test:watch",
-    "test:watch": "mocha index.test.js -w -c -b"
+    "test:watch": "mocha index.test.js --watch --color --bail"
   },
   "keywords": [],
   "author": "",
