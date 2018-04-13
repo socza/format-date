@@ -1,5 +1,5 @@
 const formatDate = (timeInSeconds) => {
-	const hours = Math.floor(timeInSeconds / 3600);
+    const hours = Math.floor(timeInSeconds / 3600);
     const minuts = Math.floor((timeInSeconds % 3600) / 60);
     const second = Math.floor((timeInSeconds % 3600) % 60);
 
